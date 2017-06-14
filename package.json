@@ -5,6 +5,7 @@
   "scripts": {
     "clean": "rm -rf ./dist",
     "build:prod": "webpack -p --define process.env.NODE_ENV='\"production\"' --progress --colors",
+    "build": "webpack --config webpack.config.js",
     "serve": "webpack-dev-server --progress --inline --profile --colors --display-error-details --history-api-fallback true --open",
     "start": "npm run clean && npm run serve"
   },
