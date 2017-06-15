@@ -9,7 +9,7 @@ export class App extends React.Component<{}, any> {
     render() {
         return (
             <h1>
-                Hello World using React!!
+                Hello React!!
             </h1>
         )
     }

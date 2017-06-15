@@ -9,8 +9,8 @@
     "serve": "webpack-dev-server --progress --inline --profile --colors --display-error-details --history-api-fallback true --open",
     "start": "npm run clean && npm run serve"
   },
-  "author": "Yousuf Qutubuddin",
-  "authorGithub": "https://github.com/uqutub",
+  "author": "Haziz Khan",
+  "authorGithub": "https://github.com/hazizkhan",
   "license": "ISC",
   "dependencies": {
     "react": "^15.5.4",
