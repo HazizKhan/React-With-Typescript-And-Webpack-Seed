@@ -27,11 +27,12 @@ module.exports = {
         ],
 
         loaders: [
+            { test: /\.css$/, loader: "style-loader!css-loader" },
             // All files with a '.ts' or '.tsx' extension will be handled by 'ts-loader'.
             { test: /\.ts$|.tsx$/, loader: 'ts-loader', exclude: './node_modules' },
             // { test: /\.jsx?$/, loaders: ['react-hot', 'babel'], exclude: './node_modules' },
             { test: /\.html$/, loader: 'raw' },
-            { test: /\.css$/, loader: 'raw' },
+            // { test: /\.css$/, loader: 'raw' },
             { test: /\.scss$/, loaders: ['raw', 'sass'] },
             { test: /\.json$/, loader: 'json-loader' }
             // ,{
