@@ -27,6 +27,7 @@ module.exports = {
         ],
 
         loaders: [
+            { test: /\.(png|woff|woff2|eot|ttf|svg)$/, loader: 'url-loader?limit=100000' },
             { test: /\.css$/, loader: "style-loader!css-loader" },
             // All files with a '.ts' or '.tsx' extension will be handled by 'ts-loader'.
             { test: /\.ts$|.tsx$/, loader: 'ts-loader', exclude: './node_modules' },
