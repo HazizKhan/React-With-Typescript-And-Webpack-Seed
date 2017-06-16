@@ -13,8 +13,8 @@
   "authorGithub": "https://github.com/hazizkhan",
   "license": "ISC",
   "dependencies": {
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
   },
   "devDependencies": {
     "@types/core-js": "0.9.34",
